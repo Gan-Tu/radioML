@@ -16,4 +16,4 @@ Each sequence is drawn at random from a Bernoulli distribution. These are convol
 
 ### Error Correcting Code
 
-N/A
+- [ecc-ffn-128-128-100-relu.h5](https://www.dropbox.com/s/kea9sf8aosuetup/ecc-ffn-128-128-100-relu.h5?dl=0)
