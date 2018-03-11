@@ -193,8 +193,8 @@ def create_dataset(k=100, n=100, probs=[0.1, 0.5, 0.81],
   for seq_p in tqdm(probs):
     for bsc_err in tqdm(err):
       for L in tqdm(Ls):
-        message_seqs, encoded_seqs = generate_encode_random_sequences(L, k, n)
-        noisy_seqs = simulate_bsc(encoded_seqs, bsc_err)
+        message_seqs, encoded_seqs = generate_encode_random_sequences(L, k, n, p=seq_p)
+        noisy_seqs = simulate_bsc(encoded_seqs, p=bsc_err)
         viterbi_decoded_seqs = viterbi_decode_sequences(noisy_seqs, L)
 
         key = (seq_p, bsc_err, L)
