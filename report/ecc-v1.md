@@ -1,3 +1,9 @@
+# General Comments
+
+- "linear activation function" for both FFN and CNN seem to work better
+- "sigmoid" on the last fully connected layer
+- tends to set all bytes to 0s or 1s
+
 # Feedforward Neural Network
 
 ## Hyperparameters
@@ -78,3 +84,24 @@ DIFFERENCE (acc 0.4600%)
  0. 0. 0. 0.]
 dummy baseline (set every bit to the most occuring bit) can get 50.0% accurate
 ```
+
+# CNN
+
+```
+true
+ [0. 1. 0. 1. 1. 1. 1. 1. 0. 0. 1. 1. 1. 1. 1. 0. 0. 1. 1. 0. 1. 1. 1. 0.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0. 1. 1. 0.
+ 0. 0. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 0.
+ 1. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1.]
+pred
+ [0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1.
+ 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1.
+ 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1.
+ 1. 1. 1. 1.]
+accu 70%
+```
+
+
+
