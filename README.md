@@ -3,6 +3,10 @@ ML for software radios
 
 [research repo source](https://github.com/jain-nikunj/radioML)
 
+## Reports
+
+- [ecc-v1](https://github.com/Michael-Tu/radioML/blob/master/report/ecc-v1.md)
+
 ## Generated Data Downloads
 
 ### Error Correcting Code
