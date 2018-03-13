@@ -11,6 +11,16 @@ Error Correcting Code
 
 - [v2 notebook](https://github.com/Michael-Tu/radioML/blob/master/ecc-v2.ipynb) and [v2 results](https://github.com/Michael-Tu/radioML/blob/master/report/ecc-v2.md)
 
+## Model Downloads
+
+### Error Correcting Code
+
+- [k5-l3-fnn-model-[32,100].h5](https://www.dropbox.com/s/fkspgy0u1zsa5zk/k5-l3-fnn-model-%5B32%2C100%5D.h5?dl=0)
+- [ecc-fnn-128-128-100-relu.h5](https://www.dropbox.com/s/kea9sf8aosuetup/ecc-fnn-128-128-100-relu.h5?dl=0)
+- [ecc-cnn1.h5](https://www.dropbox.com/s/lgm6dzu5dus47q3/ecc-cnn1.h5?dl=0)
+
+
+
 ## Generated Data Downloads
 
 ### Error Correcting Code
@@ -32,14 +42,5 @@ Each sequence is drawn at random from a Bernoulli distribution. These are convol
 
 - 300 binary sequences of 100-length, generated, convolutional codes with viterbi decoded sequences: [viterbi_dump_k100_n300.pk](https://www.dropbox.com/s/4su9r1iu7srvlzj/viterbi_dump_k100_n300.pk?dl=0)
 - 100 binary sequences of 300-length, generated, convolutional codes with viterbi decoded sequences: [viterbi_dump_k300_n100.pk](https://www.dropbox.com/s/r33igmpe07q8704/viterbi_dump_k300_n100.pk?dl=0)
-
-## Model Downloads
-
-### Error Correcting Code
-
-- [k5-l3-fnn-model-[32,100].h5](https://www.dropbox.com/s/fkspgy0u1zsa5zk/k5-l3-fnn-model-%5B32%2C100%5D.h5?dl=0)
-- [ecc-fnn-128-128-100-relu.h5](https://www.dropbox.com/s/kea9sf8aosuetup/ecc-fnn-128-128-100-relu.h5?dl=0)
-- [ecc-cnn1.h5](https://www.dropbox.com/s/lgm6dzu5dus47q3/ecc-cnn1.h5?dl=0)
-
 
 
