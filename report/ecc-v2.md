@@ -30,6 +30,7 @@ Constraint Length of 5
 
 Below are some results for the `[32,100]-fnn-model-l3` model
 
+```
 Expected:  [0, 0, 1, 1, 0]
 Deocde:    [0, 0, 1, 1, 0]
 
@@ -44,10 +45,11 @@ Deocde:    [0, 0, 0, 0, 0]
 
 Expected:  [0, 0, 0, 0, 0]
 Deocde:    [0, 0, 1, 1, 0]
-
+```
 
 # FNN Architectures Search Space:
 
+```
 FNN_ARCHITECTURE = [
     [32, 100],
     [64, 100],
@@ -70,13 +72,17 @@ FNN_ARCHITECTURE = [
     [256,128,100],
     [128,100,100]
 ]
+```
+
 
 ## Hyperparameters
+
+```
 BATCH_SIZE = 64
 EPOCHS = 50
 ACTIVATION = "relu"
 l2_reg_strength = 0.001
 LR = 0.015
 optimizer = "adam"
-
+```
 
