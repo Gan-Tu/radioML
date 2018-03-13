@@ -9,6 +9,8 @@ Error Correcting Code
 
 - [v1 notebook](https://github.com/Michael-Tu/radioML/blob/master/ecc-v1.ipynb) and [v1 results](https://github.com/Michael-Tu/radioML/blob/master/report/ecc-v1.md)
 
+- [v2 notebook](https://github.com/Michael-Tu/radioML/blob/master/ecc-v2.ipynb) and [v2 results](https://github.com/Michael-Tu/radioML/blob/master/report/ecc-v2.md)
+
 ## Generated Data Downloads
 
 ### Error Correcting Code
