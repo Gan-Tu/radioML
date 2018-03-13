@@ -14,9 +14,13 @@ Constraint Length of 3
 
 ![Constraint Length of 3](img/[32,100]-fnn-model-l3-vs-k.png)
 
+![Constraint Length of 3](img/[32,100]-fnn-model-l3-vs-k-v2.png)
+
 Constraint Length of 5
 
 ![Constraint Length of 5](img/[32,100]-fnn-model-l5-vs-k.png)
+
+![Constraint Length of 5](img/[32,100]-fnn-model-l5-vs-k-v2.png)
 
 **FNN (32-64-100) Accuracy vs. Message Length K**
 
@@ -24,9 +28,23 @@ Constraint Length of 3
 
 ![Constraint Length of 3](img/[32,64,100]-fnn-model-l3-vs-k.png)
 
+![Constraint Length of 3](img/[32,64,100]-fnn-model-l3-vs-k-v2.png)
+
 Constraint Length of 5
 
 ![Constraint Length of 5](img/[32,64,100]-fnn-model-l5-vs-k.png)
+
+**CNN Accuracy vs. Message Length K**
+
+Constraint Length of 3
+
+![Constraint Length of 3](img/cnn-model-l3-vs-k.png)
+
+Constraint Length of 5
+
+![Constraint Length of 3](img/cnn-model-l5-vs-k.png)
+
+
 
 # Example Results
 
@@ -50,7 +68,7 @@ Deocde:    [0, 0, 1, 1, 0]
 ```
 
 
-Below are some results for the `k5-l3-cnn-v2.h5` CNN model with 75.4% test accuracy
+Below are some results for the `k5-l3-cnn-v2.h5` CNN model with 76.35% test accuracy
 
 ```
 
@@ -73,9 +91,8 @@ Deocde:    [1, 1, 1, 1, 1]
 Expected:  [0, 0, 0, 0, 1]
 Deocde:    [1, 0, 0, 0, 1]
 
-
-Expected:  [0, 1, 0, 0, 1]
-Deocde:    [1, 1, 0, 0, 0]
+Expected:  [1, 1, 1, 0, 1]
+Deocde:    [1, 1, 1, 0, 1]
 
 Expected:  [0, 0, 0, 0, 0]
 Deocde:    [1, 1, 0, 0, 0]
