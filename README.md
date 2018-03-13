@@ -7,7 +7,7 @@ ML for software radios
 
 Error Correcting Code
 
-_Most Update to Data_
+_Most Update to Date_
 
 - [v2-2.0 notebook](https://github.com/Michael-Tu/radioML/blob/master/ecc-v2-v2.0.ipynb) and [v2 results](https://github.com/Michael-Tu/radioML/blob/master/report/ecc-v2.md)
 

@@ -161,6 +161,10 @@ Dense(200, activation="sigmoid")
 Reshape(output=(100,2))
 ```
 
-**Insight**: without pooling operations seem to do better based on experiments; Maxpooling is better than average pooling, performance wise
+**Insight**: 
+
+- without pooling operations seem to do better based on experiments
+- Maxpooling is better than average pooling, performance wise
+- CNN and FNN both overfit by predicting all of the same byte when k = 100, no matter what regularizations we use
 
 
