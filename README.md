@@ -35,5 +35,9 @@ Each sequence is drawn at random from a Bernoulli distribution. These are convol
 
 ### Error Correcting Code
 
+- [k5-l3-fnn-model-[32,100].h5](https://www.dropbox.com/s/fkspgy0u1zsa5zk/k5-l3-fnn-model-%5B32%2C100%5D.h5?dl=0)
 - [ecc-fnn-128-128-100-relu.h5](https://www.dropbox.com/s/kea9sf8aosuetup/ecc-fnn-128-128-100-relu.h5?dl=0)
 - [ecc-cnn1.h5](https://www.dropbox.com/s/lgm6dzu5dus47q3/ecc-cnn1.h5?dl=0)
+
+
+
