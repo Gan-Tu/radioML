@@ -1,6 +1,6 @@
 # General Comments
 
-This report corresponds to [ecc-v1 notebook](https://github.com/Michael-Tu/radioML/blob/master/ecc-v1.ipynb)
+This report corresponds to [ecc-v1 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v1.ipynb)
 
 - "linear activation function" for both FFN and CNN seem to work better
 - "sigmoid" on the last fully connected layer

@@ -1,7 +1,7 @@
 
 # Results
 
-This report corresponds to [v2-2.0 notebook](https://github.com/Michael-Tu/radioML/blob/master/ecc-v2-v2.0.ipynb)
+This report corresponds to [v2-2.0 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v2-v2.0.ipynb)
 
 **Viterbi Decoding Accuracy**
 
