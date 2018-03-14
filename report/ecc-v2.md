@@ -5,7 +5,7 @@ This report corresponds to [v2-2.0 notebook](https://github.com/Michael-Tu/radio
 
 **Viterbi Decoding Accuracy**
 
-![Viterbi Decoding Accuracy](img/viterbi-accuracy-l3-l5-vs-k.png)
+![Viterbi Decoding Accuracy](img/viterbi-accuracy-l3-vs-k.png)
 
 
 **FNN (32-100) Accuracy vs. Message Length K**
