@@ -9,13 +9,15 @@ Error Correcting Code
 
 _Most Update to Date_
 
-- [v2-2.0 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v2-v2.0.ipynb) and [v2 results](https://github.com/Michael-Tu/radioML/blob/master/report/ecc-v2.md)
+- [v3 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v3.ipynb)
 
 _Others_
 
 - [v1 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v1.ipynb) and [v1 results](https://github.com/Michael-Tu/radioML/blob/master/report/ecc-v1.md)
 
 - [v2-1.0 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v2-v1.0.ipynb) and [v2 results](https://github.com/Michael-Tu/radioML/blob/master/report/ecc-v2.md)
+
+- [v2-2.0 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v2-v2.0.ipynb) and [v2 results](https://github.com/Michael-Tu/radioML/blob/master/report/ecc-v2.md)
 
 ## Model Downloads
 
