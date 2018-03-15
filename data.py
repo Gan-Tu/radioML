@@ -1,6 +1,7 @@
 from generate_data import *
 import numpy as np
 import pickle
+import os
 
 def make(k,p,e,l,r,n):
     try:
@@ -24,6 +25,14 @@ def save(dataset, filename):
     with open(path, 'wb') as output:
         pickle.dump(dataset, output)
 
+def exist(filename):
+    components = filename.split("/")
+    directory, file = components[:-1], components[-1]
+    directory = "/".join(directory)
+    directory = "data/dataset_02/{0}".format(directory)
+    return file in os.listdir(directory)
+
+
 if __name__ == '__main__':
     n = 5000
     ks = np.hstack([np.arange(1, 21, 1), np.arange(50, 201, 50)])
@@ -42,8 +51,9 @@ if __name__ == '__main__':
         r = 0.5
         for l in [3, 5]:
             filename = "exp_k/data_n{0}_k{1}_p{2}_e{3}_l{4}_r{5:.2f}.pkl".format(n, k, p, e, l, r)
+            if exist(filename):
+                continue
             print("generating {0} data...".format(filename))
-
             all_datasets["exp_k"][(k,p,e,l,r)] = make(k,p,e,l,r,n)
             save(all_datasets["exp_k"][(k,p,e,l,r)], filename)
 
@@ -55,8 +65,9 @@ if __name__ == '__main__':
             r = 0.5
             for l in [3, 5]:
                 filename = "exp_p/data_n{0}_k{1}_p{2}_e{3}_l{4}_r{5:.2f}.pkl".format(n, k, p, e, l, r)
+                if exist(filename):
+                    continue
                 print("generating {0} data...".format(filename))
-
                 all_datasets["exp_p"][(k,p,e,l,r)] = make(k,p,e,l,r,n)
                 save(all_datasets["exp_p"][(k,p,e,l,r)], filename)
 
@@ -68,8 +79,9 @@ if __name__ == '__main__':
             r = 0.5
             for l in [3, 5]:
                 filename = "exp_e/data_n{0}_k{1}_p{2}_e{3}_l{4}_r{5:.2f}.pkl".format(n, k, p, e, l, r)
+                if exist(filename):
+                    continue
                 print("generating {0} data...".format(filename))
-
                 all_datasets["exp_e"][(k,p,e,l,r)] = make(k,p,e,l,r,n)
                 save(all_datasets["exp_e"][(k,p,e,l,r)], filename)
 
@@ -81,8 +93,9 @@ if __name__ == '__main__':
             p = 0.5
             for l in [3, 5]:
                 filename = "exp_r/data_n{0}_k{1}_p{2}_e{3}_l{4}_r{5:.2f}.pkl".format(n, k, p, e, l, r)
+                if exist(filename):
+                    continue
                 print("generating {0} data...".format(filename))
-
                 all_datasets["exp_r"][(k,p,e,l,r)] = make(k,p,e,l,r,n)
                 save(all_datasets["exp_r"][(k,p,e,l,r)], filename)
 
@@ -94,8 +107,9 @@ if __name__ == '__main__':
         p = 0.5
         for l in Ls:
             filename = "exp_l/data_n{0}_k{1}_p{2}_e{3}_l{4}_r{5:.2f}.pkl".format(n, k, p, e, l, r)
+            if exist(filename):
+                    continue
             print("generating {0} data...".format(filename))
-
             all_datasets["exp_l"][(k,p,e,l,r)] = make(k,p,e,l,r,n)
             save(all_datasets["exp_l"][(k,p,e,l,r)], filename)
 
