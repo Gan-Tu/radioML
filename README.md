@@ -33,6 +33,54 @@ Each sequence is drawn at random from a Bernoulli distribution. These are convol
 
 You can download data from my [Dropbox](https://www.dropbox.com/sh/crdjyolj318rzz3/AAANucpoWs_Uje73NDNTZSqKa?dl=0)
 
+#### Controlled Experiments
+
+**Variable `p = [0.1, 0.25, 0.5, 0.7, 0.81]`):**
+
+Fixed: `n = 2000, error = 0.05, rate = 0.5, l = 3`
+
+Data:
+
+- For `k = 10`: [link](https://www.dropbox.com/sh/jmzy82qvkhm56i9/AAC0J6CTKYbe08OjCJHdzw7Ba?dl=0)
+
+- For `k = 100`: [link](https://www.dropbox.com/sh/7rrsuyxsr3sgzcl/AABKUOhx7qIKH1FWIv2m8uV2a?dl=0)
+
+
+**Variable `error = [0.01, 0.05, 0.09, 0.15, 0.19]`):**
+
+Fixed: `n = 2000, p = 0.5, l = 3`
+
+Note, due to channel capacity: `rate = 0.5` for `0 < error < 0.1` and `rate = 1/3` for `0.1 <= error < 0.2`.
+
+Data:
+
+- For `k = 10`: [link](https://www.dropbox.com/sh/mdixtols9gzipwp/AAD-te-dssQZgqTy-ur_cLeja?dl=0)
+
+- For `k = 100`: [link](https://www.dropbox.com/sh/k07j3aq8yx76ero/AAAZa-BfwxttvDtoPTeb8RJQa?dl=0)
+
+
+**Variable `l = [3, 4, 5, 6, 7, 8, 9, 10]`:**
+
+Fixed: `n = 2000, p = 0.05, error = 0.05, rate = 0.5`
+
+Data:
+
+- For `k = 20`: [link](https://www.dropbox.com/sh/nx6dq2wwent9iag/AADgCYclfI69aw6WA4YpRyeZa?dl=0)
+
+- For `k = 100`: [link](https://www.dropbox.com/sh/brlu9ojw4wcxbwa/AAD9la6CqyqPc4JBcMjJVOWUa?dl=0)
+
+
+**Variable `k = [1, ..., 20, 50, 100, 150, 200]`:**
+
+Fixed: `n = 2000, p = 0.05, error = 0.05, rate = 0.5, l = 3`
+
+Data:
+
+[link](https://www.dropbox.com/sh/e1jrbcgwusxdb9g/AABrl_K-ooXKYQNQ0-OFvjPIa?dl=0)
+
+
+
+
 
 
 
