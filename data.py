@@ -38,7 +38,7 @@ if __name__ == '__main__':
     ks = np.hstack([np.arange(1, 21, 1), np.arange(50, 201, 50)])
     probs = [0.1, 0.25, 0.5, 0.7, 0.81]
     err = [0.01, 0.05, 0.09, 0.15, 0.19]
-    Ls = np.arange(3, 11)
+    Ls = np.arange(3, 8)
     rate = lambda x: 0.5 if x < 0.1 else 1/3
 
     all_datasets = dict()

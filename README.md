@@ -1,15 +1,13 @@
 # RadioML
 ML for software radios
 
-[research repo source](https://github.com/jain-nikunj/radioML)
+[research group repo](https://github.com/jain-nikunj/radioML)
 
 ## Reports
 
 Error Correcting Code
 
-_Most Update to Date_
-
-- [v3 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v3.ipynb)
+_Most Update to Date:_ [v3 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v3.ipynb)
 
 _Others_
 
@@ -53,7 +51,7 @@ Note, due to channel capacity: `rate = 0.5` for `0 < error < 0.1` and `rate = 1/
 Data: [`k = 10`](https://www.dropbox.com/sh/mdixtols9gzipwp/AAD-te-dssQZgqTy-ur_cLeja?dl=0) and [`k = 100`](https://www.dropbox.com/sh/k07j3aq8yx76ero/AAAZa-BfwxttvDtoPTeb8RJQa?dl=0)
 
 
-**Variable `l = [3, 4, 5, 6, 7, 8, 9, 10]`:**
+**Variable `l = [3, 4, 5, 6, 7]`:**
 
 Fixed: `n = 2000, p = 0.05, error = 0.05, rate = 0.5`
 
