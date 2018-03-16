@@ -5,11 +5,11 @@ ML for software radios
 
 ## Reports
 
-Error Correcting Code
+**Error Correcting Code**
 
 _Most Update to Date:_ [v3 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v3.ipynb)
 
-_Others_
+**Others**
 
 - [v1 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v1.ipynb) and [v1 results](https://github.com/Michael-Tu/radioML/blob/master/report/ecc-v1.md)
 
@@ -29,11 +29,11 @@ You can download trained models from my [Dropbox](https://www.dropbox.com/sh/zat
 
 Each sequence is drawn at random from a Bernoulli distribution. These are convolutionally encoded, then subject to varying levels of noise from a binary symmetric channel. Finally, the corresponding Viterbi sequences are also recorded.
 
-You can download data from my [Dropbox](https://www.dropbox.com/sh/crdjyolj318rzz3/AAANucpoWs_Uje73NDNTZSqKa?dl=0)
+You can download all the data from my [Dropbox](https://www.dropbox.com/sh/crdjyolj318rzz3/AAANucpoWs_Uje73NDNTZSqKa?dl=0)
 
 ### Controlled Experiments Data
 
-All of the following data can be found on my [Dropbox](https://www.dropbox.com/sh/bohme1mfhrfl34f/AADeR3Fhga5mKnKBc735p43va?dl=0)
+Below are the [data](https://www.dropbox.com/sh/bohme1mfhrfl34f/AADeR3Fhga5mKnKBc735p43va?dl=0) generated for evaluating and showing model performance in controlled experiements, with fixed parameters and experimental variable parameter:
 
 **Variable `p = [0.1, 0.25, 0.5, 0.7, 0.81]`):**
 
