@@ -64,9 +64,3 @@ Fixed: `n = 2000, p = 0.05, error = 0.05, rate = 0.5, l = 3`
 
 Data: [link](https://www.dropbox.com/sh/e1jrbcgwusxdb9g/AABrl_K-ooXKYQNQ0-OFvjPIa?dl=0)
 
-
-
-
-
-
-

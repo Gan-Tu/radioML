@@ -4,7 +4,7 @@
 
 This report corresponds to [v3 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v3.ipynb)
 
-# Accuracy of Viterbi Decoding
+# Accuracy of FNN Model
 
 Computed Over Different Variables (n=2000):
 
@@ -15,9 +15,6 @@ e = corruption probability
 l = constraint length
 ```
 
-![viterbi-accuracies](img/v3/viterbi-accuracies.png)
-
-# FNN Model
 
 
 **Variable `p = [0.1, 0.25, 0.5, 0.7, 0.81]`):**

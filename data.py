@@ -113,7 +113,7 @@ if __name__ == '__main__':
     #             all_datasets["exp_r"][(k,p,e,l,r)] = make(k,p,e,l,r,n)
     #             save(all_datasets["exp_r"][(k,p,e,l,r)], filename)
 
-    print("saving all datasets")
-    with open("data/dataset_03_all_datasets_n{0}.pkl".format(n), 'wb') as output:
-         pickle.dump(all_datasets, output)
+    # print("saving all datasets")
+    # with open("data/dataset_03_all_datasets_n{0}.pkl".format(n), 'wb') as output:
+    #      pickle.dump(all_datasets, output)
 
