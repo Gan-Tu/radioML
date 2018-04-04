@@ -21,7 +21,7 @@ def make(k,p,e,l,r,n):
         print("error: ", e)
 
 def save(dataset, filename):
-    path = "data/dataset_03/{0}".format(filename)
+    path = "../dataset_03/{0}".format(filename)
     with open(path, 'wb') as output:
         pickle.dump(dataset, output)
 
@@ -29,11 +29,10 @@ def exist(filename):
     components = filename.split("/")
     directory, file = components[:-1], components[-1]
     directory = "/".join(directory)
-    directory = "data/dataset_03/{0}".format(directory)
+    directory = "../dataset_03/{0}".format(directory)
     return file in os.listdir(directory)
 
-
-if __name__ == '__main__':
+def data1():
     n = 2000
     ks = np.hstack([np.arange(1, 21, 1), np.arange(50, 201, 50)])
     probs = [0.1, 0.25, 0.5, 0.7, 0.81]
@@ -114,6 +113,23 @@ if __name__ == '__main__':
     #             save(all_datasets["exp_r"][(k,p,e,l,r)], filename)
 
     # print("saving all datasets")
-    # with open("data/dataset_03_all_datasets_n{0}.pkl".format(n), 'wb') as output:
+    # with open("../dataset_03_all_datasets_n{0}.pkl".format(n), 'wb') as output:
     #      pickle.dump(all_datasets, output)
+
+
+if __name__ == '__main__':
+    all_datasets = dict()
+    get_rate = lambda x: 0.5 if x < 0.1 else 1/3
+    n = 100000
+    l = 3
+    p = 0.5
+    for k in np.arange(5, 200, 5):
+        for e in np.arange(0.05, 0.21, 0.05):
+            r = get_rate(e)
+            print("generating (k,p,e,l,r,n) = {0}".format((k,p,e,l,r,n)))
+            all_datasets[(k,p,e,l,r,n)] = make(k,p,e,l,r,n)
+
+    with open("../dataset_04_n{0}.pkl".format(n), 'wb') as output:
+         pickle.dump(all_datasets, output)
+
 
