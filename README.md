@@ -35,26 +35,25 @@ Each sequence is drawn at random from a Bernoulli distribution. These are convol
 
 You can download all the data from my [Dropbox](https://www.dropbox.com/sh/crdjyolj318rzz3/AAANucpoWs_Uje73NDNTZSqKa?dl=0)
 
-### Selected Controlled Experiments Data
-
-https://www.dropbox.com/sh/6f13x0hqqqnzqsx/AADASLoeXiveXhRAqHnh3lk-a?dl=0
-
-#### Large 6GB dataset
+### Large 6GB dataset
 
 Fixed: `n = 25000, rate = 0.5, p = 0.5, l = 3`
 
 Variable:
 
-- `k = [5,  10,  15,  20,  25,  30,  35,  40,  45,  50,  55,  65,  75, 85,  95, 105, 115, 125, 135, 145, 155, 165, 175, 185, 195]` 
+- `k = [5,  10,  15,  20,  25,  30,  35,  40,  45,  50,  
+        55,  65,  75, 85,  95, 105, 115, 125, 135, 145, 
+        155, 165, 175, 185, 195]` 
 - `(e, rate) = [(0.05, 0.5), (0.15, 1/3)]`
 
 Fixed: `n = 25000, rate = 0.5, p = 0.5, l = 3`
 
 Data: [download](https://www.dropbox.com/sh/6f13x0hqqqnzqsx/AADASLoeXiveXhRAqHnh3lk-a?dl=1)
 
-#### Small varying dataset
 
-Data: [download all]((https://www.dropbox.com/sh/bohme1mfhrfl34f/AADeR3Fhga5mKnKBc735p43va?dl=1)
+### Small varying dataset
+
+Data: [download all](https://www.dropbox.com/sh/bohme1mfhrfl34f/AADeR3Fhga5mKnKBc735p43va?dl=1)
 
 ---
 
