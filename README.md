@@ -7,8 +7,11 @@ ML for software radios
 
 **Error Correcting Code**
 
-_Most Update to Date:_ [v5 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v5.ipynb) and [v5 results](https://github.com/Michael-Tu/radioML/blob/master/report/ecc-v5.md)
+_Most Update to Date:_ 
 
+- [v5 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v5.ipynb) and [v5 results](https://github.com/Michael-Tu/radioML/blob/master/report/ecc-v5.md)
+
+- [v6 notebook](https://github.com/Michael-Tu/radioML/blob/master/notebooks/ecc-v6.ipynb) and [v6 results](https://github.com/Michael-Tu/radioML/blob/master/report/ecc-v6.md)
 
 **Others**
 
