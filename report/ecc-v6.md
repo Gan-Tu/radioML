@@ -46,9 +46,13 @@ Basic LSTM
 
 ![lstm-rnn-k10-e0.15-train](img/v6/lstm-rnn-k10-e0.15-train.png)
 
+Final Test Accuracy after 50+ epoches: 92.4%
+
 Bidirectional LSTM
 
 ![bidir-k10-e0.15](img/v6/bidir-k10-e0.15.png)
+
+Final Test Accuracy after 20 epoches: 90.3%
 
 **K20**
 
@@ -56,9 +60,13 @@ Basic LSTM
 
 ![lstm-rnn-k20-e0.15-train](img/v6/lstm-rnn-k20-e0.15-train.png)
 
+Final Test Accuracy after 80+ epoches: 88.7%
+
 Bidirectional LSTM
 
 ![bidir-k20-e0.15](img/v6/bidir-k20-e0.15.png)
+
+Final Test Accuracy after 20 epoches: 83.3%
 
 
 ### Normalization of Training Data
