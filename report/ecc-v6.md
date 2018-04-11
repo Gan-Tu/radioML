@@ -28,6 +28,8 @@ Bidirectional LSTM
 
 Basic LSTM
 
+![basic-k40-e0.05](img/v6/basic-k40-e0.05.png)
+
 ![lstm-rnn-k40-e0.05-train](img/v6/lstm-rnn-k40-e0.05-train.png)
 
 Bidirectional LSTM
