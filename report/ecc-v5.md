@@ -1,6 +1,6 @@
-viterbi-k-acc
-
 # Viterbi
+
+viterbi-k-acc
 
 ![viterbi-k-acc](img/v5/viterbi-k-acc.png)
 
