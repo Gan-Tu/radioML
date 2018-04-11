@@ -5,44 +5,44 @@ This report corresponds to [v2-2.0 notebook](https://github.com/Michael-Tu/radio
 
 **Viterbi Decoding Accuracy**
 
-![Viterbi Decoding Accuracy](img/viterbi-accuracy-l3-vs-k.png)
+![Viterbi Decoding Accuracy](img/v2/viterbi-accuracy-l3-vs-k.png)
 
 
 **FNN (32-100) Accuracy vs. Message Length K**
 
 Constraint Length of 3
 
-![Constraint Length of 3](img/[32,100]-fnn-model-l3-vs-k.png)
+![Constraint Length of 3](img/v2/[32,100]-fnn-model-l3-vs-k.png)
 
-![Constraint Length of 3](img/[32,100]-fnn-model-l3-vs-k-v2.png)
+![Constraint Length of 3](img/v2/[32,100]-fnn-model-l3-vs-k-v2.png)
 
 Constraint Length of 5
 
-![Constraint Length of 5](img/[32,100]-fnn-model-l5-vs-k.png)
+![Constraint Length of 5](img/v2/[32,100]-fnn-model-l5-vs-k.png)
 
-![Constraint Length of 5](img/[32,100]-fnn-model-l5-vs-k-v2.png)
+![Constraint Length of 5](img/v2/[32,100]-fnn-model-l5-vs-k-v2.png)
 
 **FNN (32-64-100) Accuracy vs. Message Length K**
 
 Constraint Length of 3
 
-![Constraint Length of 3](img/[32,64,100]-fnn-model-l3-vs-k.png)
+![Constraint Length of 3](img/v2/[32,64,100]-fnn-model-l3-vs-k.png)
 
-![Constraint Length of 3](img/[32,64,100]-fnn-model-l3-vs-k-v2.png)
+![Constraint Length of 3](img/v2/[32,64,100]-fnn-model-l3-vs-k-v2.png)
 
 Constraint Length of 5
 
-![Constraint Length of 5](img/[32,64,100]-fnn-model-l5-vs-k.png)
+![Constraint Length of 5](img/v2/[32,64,100]-fnn-model-l5-vs-k.png)
 
 **CNN Accuracy vs. Message Length K**
 
 Constraint Length of 3
 
-![Constraint Length of 3](img/cnn-model-l3-vs-k.png)
+![Constraint Length of 3](img/v2/cnn-model-l3-vs-k.png)
 
 Constraint Length of 5
 
-![Constraint Length of 3](img/cnn-model-l5-vs-k.png)
+![Constraint Length of 3](img/v2/cnn-model-l5-vs-k.png)
 
 
 
