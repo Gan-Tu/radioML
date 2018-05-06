@@ -1,0 +1,59 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{cvpr}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Include other packages here, before hyperref.
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[breaklinks=true,bookmarks=false]{hyperref}
+
+\cvprfinalcopy % *** Uncomment this line for the final submission
+
+\def\cvprPaperID{****} % *** Enter the CVPR Paper ID here
+\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% Pages are numbered in submission mode, and unnumbered in camera-ready
+%\ifcvprfinal\pagestyle{empty}\fi
+\setcounter{page}{4321}
+\begin{document}
+
+%%%%%%%%% TITLE
+\title{Deep Network Defined Radios Semester Report}
+
+\author{Gan Tu\\
+UC Berkeley\\
+tugan@berkeley.edu
+}
+
+\maketitle
+%\thispagestyle{empty}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{|l|c|c|c|}
+\hline
+Architecture & Short K, Low P & Long K, Low P & Short K, High P \\
+\hline\hline
+   Viterbi & 99.5 & 99.5 & 93.0 \\\
+   FNN & 98.3 & 98.4 & 75.8 \\
+   CNN & 99.5 & 98.1 & 75.8 \\
+   LSTM & 99.5 & 98.1 & 75.8 \\
+   Bidirectional-LSTM & 99.5 & 98.1 & 75.8 \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Results.   Ours is better.}
+\end{table}
+
+FNN-[32, 64, 100]
+
+Message Length: K
+
+\end{document}
